@@ -1,0 +1,94 @@
+/* Navbar Styling */
+.nav-blog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.nav-brand p a{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(182, 182, 151);
+    text-decoration: none;
+}
+.navbar-list{
+    display: flex;
+    list-style: none;
+    padding: 0 14px;
+}
+.navbar-list li{
+    font-size: 16px;
+    margin-right: 10px;
+}
+.navbar-list li a{
+    color: aqua;
+    text-decoration: none;
+}
+.navbar-list li a:hover{
+    opacity: 0.3;
+}
+.menu{
+    display: none;
+}
+ @media screen and (max-width:600px){
+    .menu{
+        display: flex;
+        margin-left: 120px;
+        width: 50px;
+        border-radius: 10px;
+        background-color: aqua;
+        border: none;
+    }
+    .navbar-list li a{
+        display: none;
+    }
+ }
+
+ /* Banner Holder */
+.Homepage{
+    background-image: url('./images/room-1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Blogspage{
+    background-image: url('./images/room-1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Banner */
+
+.banner{
+    background-color: rgba(12, 12, 11,0.5);
+    color: blanchedalmond;
+    padding:10px;
+    border-radius: 2px;
+}
+.banner p{
+    font-size: 16px;
+}
+
+
+/* Title Component */
+
+.title h4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 4px solid #941d1d;
+    border-width: 1px;
+}
+
